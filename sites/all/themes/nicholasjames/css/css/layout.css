@@ -1,0 +1,272 @@
+body{
+	margin: 0;
+	min-width: 960px;
+	padding: 0;
+	color:#808285;
+	background: url(../images/nj-top-bg-small.png) top left repeat-x #f1f1f2 fixed;
+}
+#nj_loader{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	z-index: 20000;
+	text-align: center;
+	top:0;
+	left: 0;
+}
+#nj_loader img{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -84px;
+	margin-left: -73px;
+}
+#container{
+	width: 100%;
+	min-width: 960px;
+}
+#header, #scrol-nav, #nav{
+	z-index:100;	
+}
+#content{
+	width:730px;
+	position: relative;
+	border:0px solid;
+	float:left;
+	overflow: hidden;
+	visibility: hidden;;
+}
+#nav{
+	float:left;
+	height: 100%;	
+	min-width: 200px;
+	visibility: hidden;
+}
+#nav ul{	
+	top:195px;
+	position: fixed;	
+	height: 317px;
+	width: 162px;	
+}
+#nav li{
+	margin: 0 0 15px 0;	
+	padding-left: 17px;
+	height: 20px;;
+	margin-bottom: 5px;
+	line-height: 12px;
+	vertical-align: middle;
+}
+#nav li.basket{
+	margin-top: 78px;
+}
+#nav li a{
+	height:  20px;
+	line-height:  20px;
+	vertical-align: middle;
+	padding-left: 15px;
+}
+#right-col{
+	float: left;
+	min-width: 30px; 
+	height: 100%;
+	visibility: hidden;
+	position: relative;
+}
+
+#scrol-nav{
+	height: 56px;
+	position: fixed;
+	right: 45px;
+
+}
+#scrol-nav li{
+	margin-bottom: 12px;
+}
+#scrol-nav a.next{
+	background: none;
+	float: none;
+	text-indent: 0;
+	margin-bottom: 0;
+	width: auto;
+	height: auto;
+	display: inline;
+}
+#scrol-nav span{
+	/*border-bottom: solid 2px #D9DBDC;*/
+}
+#scrol-nav  img{
+	cursor: pointer;
+}
+#header{
+	position:fixed;
+	height: 130px;	
+	width:100%;
+	z-index: 200;
+
+}
+#header .logo{
+	margin-left: 32px;
+	margin-top: 28px;
+	float: left;
+}
+#header .social{
+	float:right;
+	width: 100px;
+	margin-top: 28px;
+}
+#header .social li{
+	float:left;
+	list-style: none;
+	margin-left: 5px;
+}
+.parallax-section{
+	width: 100%;
+	height: 900px;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+.product-parallax, .kaleidoscope-parallax, .main_image{
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	z-index: 10;
+}
+.kaleidoscope-parallax{
+	z-index: 8;
+}
+.main_image{
+	z-index: 9;
+}
+.parallax-content{
+	position: absolute;
+	z-index: 20;
+	padding-left: 0;
+	padding-top: 195px;
+	width: 240px;	
+}
+
+/*WELCOME SECTION STYLES*/
+#welcome-section .parallax-content{
+	width: 244px;
+}
+#about_us-section .parallax-content{
+	background: url(../images/about-kaleidoscope.png) no-repeat;
+	padding: 85px 35px;
+	text-align: center;
+	width: 343px;
+	height:307px;	
+	margin-top: 90px;
+    left: 226px;
+    /*z-index: 300;*/
+}
+#collection-section .parallax-content{
+	width: 237px;
+	margin-top: 70px;
+} 
+a.view-image.colorbox-load, a.view-image.colorbox-load:visited, a.view-image.colorbox-load:link{
+	display: block;
+	position: relative;
+	background: url(../images/sprite_view.png) no-repeat;
+	background-position:-63px -0px;  
+	width: 22px;
+	height: 25px;
+	margin:0 auto;
+	top: -36px;
+	cursor: pointer;
+}
+a.colorbox-load.no-ul.view-product{
+	position: relative;
+	background: url(../images/sprite_view.png) no-repeat;
+	background-position:-33px -1px;  
+	width: 20px;
+	height: 22px;
+	top: -215px;
+	left: 226px;
+	cursor: pointer;
+	display: block;
+}
+.view-full{
+	margin-top: 45px;
+}
+#news-section .view-full{
+	margin-top: 24px;
+}
+.view-full a.kalei-load{
+	display: block;
+	background: url(../images/sprite_view.png) no-repeat;
+	background-position:0px 0px;  
+	width: 22px;
+	height: 25px;
+	margin-bottom: 9px;
+}
+
+#silver-section .parallax-content{
+	width: 201px;
+}
+#od-section .parallax-content{
+	width: 241px;
+}
+
+#store-section .parallax-content{
+	width: 135px;
+}
+
+#news-section .parallax-content{
+	width: 150px;
+}
+/*
+#news-section .lastest{
+	background: url(../images/news_body.png);
+	width: 334px;
+	height: 386px;
+	z-index: 20;
+}*/
+#faq-section .parallax-content{
+	width: 158px;
+}
+.faq-parallax{
+	background: url(../images/faq_background.png);
+	width: 97px;
+	height: 84px;
+	z-index: 20;
+	padding: 37px 20px;
+}
+
+#contact-section .parallax-content, #news-section  .lastest{
+	background: url(../images/news_body.png) no-repeat;
+	background-position: 0 129px; 
+	width: 294px;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 386px;
+	z-index: 20;
+	left: 262px;
+	margin-top: -34px;
+}
+ #news-section  .lastest{
+ 	background-position: 0 0;
+ 	padding: 60px 20px; 
+ }
+#contact-section .parallax-content h1{
+	
+}
+
+#end-section{
+	height: 300px;
+
+}
+.shadown1{
+	background: url(../images/shadown_1.png) no-repeat bottom center;
+	padding-bottom: 50px;
+}
+.shadown2{
+	background: url(../images/shadown_3.png) no-repeat bottom center;
+	padding-bottom: 75px;
+}
+.shadown3{
+	background: url(../images/shadown_3.png) no-repeat bottom center;
+	padding-bottom: 80px;
+}
+

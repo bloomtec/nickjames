@@ -1,0 +1,440 @@
+/*WELCOME SECTION*/
+#welcome-section .welcome_product_1 img {
+	width: 66px;
+	height: 76px;
+}
+#welcome-section .welcome_product_2 img {
+	width: 128px;
+	height: 148px;
+}
+#welcome-section .welcome_product_3 img {
+	width: 41px;
+	height: 47px;
+}
+#welcome-section .welcome_product_4 img {
+	width: 66px;
+	height: 76px;
+}
+#welcome-section .welcome_product_5 img {
+	width: 34px;
+	height: 39px;
+}
+#welcome-section .welcome_product_6 img {
+	width: 128px;
+	height: 148px;
+}
+#welcome-section .welcome_product_7 img {
+	width: 128px;
+	height: 148px;
+}
+#welcome-section .welcome_product_8 img {
+	width: 154px;
+	height: 178px;
+}
+#welcome-section .welcome_product_9 img {
+	width: 66px;
+	height: 76px;
+}
+#welcome-section .welcome_product_10 img {
+	width: 36px;
+	height: 42px;
+}
+#welcome-section .welcome_product_11 img {
+	width: 36px;
+	height: 42px;
+}
+#welcome-section .welcome_product_12 img {
+	width: 273px;
+	height: 317px;
+}
+#welcome-section .kaleidoscope_1 {
+	width: 245px;
+	height: 283px;
+}
+#welcome-section .kaleidoscope_2 {
+	width: 135px;
+	height: 156px;
+}
+#welcome-section .kaleidoscope_3 {
+	width: 135px;
+	height: 156px;
+}
+/*End WELCOME SECTION*/
+/* About Us */
+#about_us-section .about_us_body img {
+	width: 413px;
+	height: 477px;
+}
+#about_us-section .about_us_image img {
+	width: 328px;
+	height: 408px;
+}
+#about_us-section .about_us_product_1 img {
+	width: 127px;
+	height: 147px;
+}
+#about_us-section .about_us_product_2 img {
+	width: 36px;
+	height: 42px;
+}
+#about_us-section .about_us_product_3 img {
+	width: 127px;
+	height: 147px;
+}
+#about_us-section .about_us_product_4 img {
+	width: 127px;
+	height: 147px;
+}
+#about_us-section .about_us_product_5 img {
+	width: 36px;
+	height: 42px;
+}
+#about_us-section .about_us_product_6 img {
+	width: 154px;
+	height: 177px;
+}
+#about_us-section .about_us_product_7 img {
+	width: 36px;
+	height: 42px;
+}
+
+#about_us-section .kaleidoscope_1 {
+	left: 357px;
+	top:-97px;
+}
+/*
+#about_us-section .kaleidoscope_2 img {
+	width: 101px;
+	height: 117px;
+}
+/*
+#about_us-section .kaleidoscope_3 img {
+	width: 254px;
+	height: 294px;
+}
+*/
+/* End About Us */
+/* Collection */
+
+#collection-section .kaleidoscope_1  {
+	left: 151px;
+	top: -129px;
+}
+#collection-section .kaleidoscope_2 {
+	left: 394px;
+	top: -39px;
+}
+/*#collection-section .kaleidoscope_3 img {
+	width: 160px;
+	height: 140px;
+}
+#collection-section .kaleidoscope_4 img {
+	width: 215px;
+	height: 248px;
+}
+*/
+#collection-section .collection_product_1 img {
+	width: 254px;
+	height: 293px;
+}
+#collection-section .collection_product_2 img {
+	width: 36px;
+	height: 42px;
+}
+#collection-section .collection_product_3 img {
+	width: 254px;
+	height: 293px;
+}
+#collection-section .collection_product_4 img {
+	width: 254px;
+	height: 293px;
+}
+#collection-section .collection_product_5 img {
+	width: 36px;
+	height: 42px;
+}
+#collection-section .collection_product_6 img {
+	width: 36px;
+	height: 42px;
+	display: none;
+}
+/* End Collection */
+/* Silver */
+/*
+#silver-section .silver_image img {
+	width: 364px;
+	height: 421px;
+}
+*/
+#silver-section .kaleidoscope_1 {
+	left:418px;
+	top: -130px;
+}
+#silver-section .kaleidoscope_2 {
+	left:190px;
+	top: 77px;
+}
+/*#silver-section .kaleidoscope_2 img {
+	width: 140px;
+	height: 160px;
+}
+#silver-section .kaleidoscope_3 img {
+	width: 140px;
+	height: 160px;
+}
+#silver-section .kaleidoscope_4 img {
+	width: 210px;
+	height: 242px;
+}
+*/
+#silver-section .silver_product_1 img {
+	width: 36px;
+	height: 42px;
+}
+#silver-section .silver_product_2 img {
+	width: 254px;
+	height: 294px;
+}
+#silver-section .silver_product_3 img {
+	width: 254px;
+	height: 294px;
+}
+#silver-section .silver_product_4 img {
+	width: 36px;
+	height: 42px;
+}
+#silver-section .silver_product_5 img {
+	width: 254px;
+	height: 294px;
+}
+#silver-section .silver_product_6 img {
+	width: 36px;
+	height: 42px;
+}
+/* End Silver */
+/* Other Designers */
+
+#od-section .kaleidoscope_1 {
+	left: 196px;
+	top: -85px;
+}
+/*#od-section .kaleidoscope_2 img {
+	width: 238px;
+	height: 275px;
+}
+#od-section .kaleidoscope_3 img {
+	width: 285px;
+	height: 327px;
+}
+*/
+#od-section .od_product_1 img {
+	width: 66px;
+	height: 76px;
+}
+#od-section .od_product_2 img {
+	width: 128px;
+	height: 148px;
+}
+#od-section .od_product_3 img {
+	width: 40px;
+	height: 46px;
+}
+#od-section .od_product_4 img {
+	width: 66px;
+	height: 76px;
+}
+#od-section .od_product_5 img {
+	width: 36px;
+	height: 42px;
+}
+#od-section .od_product_6 img {
+	width: 36px;
+	height: 42px;
+}
+#od-section .od_product_7 img {
+	width: 128px;
+	height: 148px;
+}
+#od-section .od_product_8 img {
+	width: 154px;
+	height: 178px;
+}
+#od-section .od_product_9 img {
+	width: 64px;
+	height: 76px;
+}
+/* End Other Designers */
+
+/* STORE SECTION */
+
+#store-section .kaleidoscope_1 {
+	left: 160px;
+	top: -68px;
+}
+/*#store-section .kaleidoscope_2 img {
+	width: 362px;
+	height: 418px;
+}
+#store-section .kaleidoscope_3 img {
+	width: 187px;
+	height: 216px;
+}
+#store-section .kaleidoscope_4 img {
+	width: 304px;
+	height: 350px;
+}
+#store-section .kaleidoscope_5 img {
+	width: 97px;
+	height: 112px;
+}
+#store-section .kaleidoscope_6 img {
+	width: 178px;
+	height: 206px;
+}
+*/
+/* End STORE SECTION */
+
+/* News */
+#news-section .news_body img {
+	width: 334px;
+	height: 386px;
+}
+#news-section .news_image img {
+	width: 285px;
+	height: 330px;
+}
+
+#news-section .kaleidoscope_1 {
+	left: 395px;
+	top: -125px;
+}
+/*#news-section .kaleidoscope_2 img {
+	width: 80px;
+	height: 90px;
+}
+#news-section .kaleidoscope_3 img {
+	width: 419px;
+	height: 484px;
+}
+#news-section .kaleidoscope_4 img {
+	width: 136px;
+	height: 152px;
+}
+#news-section .kaleidoscope_5 img {
+	width: 246px;
+	height: 282px;
+}
+*/
+/* End News */
+
+/* FAQ */
+
+#faq-section .kaleidoscope_1 {
+	left:302px;
+	top: -113px;
+}
+/*#faq-section .kaleidoscope_2 img {
+	display: none;
+	width:102px;
+	height: 118px;
+}
+#faq-section .kaleidoscope_3 img {
+	display: none;
+	width:314px;
+	height: 363px;
+}
+*/
+#faq-section .kaleidoscope_4 {
+	left: 359px;
+	top: 753px;
+}
+
+/* End FAQs */
+
+
+/* Contact */
+#contact-section .contact_body img {
+	width: 335px;
+	height: 387px;
+}
+#contact-section .contact_map img {
+	width: 263px;
+	height: 304px;
+}
+#contact-section .contact_product_1 img {
+	width: 128px;
+	height: 148px;
+}
+#contact-section .contact_product_2 img {
+	width: 36px;
+	height: 42px;
+}
+#contact-section .contact_product_3 img {
+	width: 36px;
+	height: 42px;
+}
+/*
+#contact-section .kaleidoscope_1 img {
+	width: 352px;
+
+}
+#contact-section .kaleidoscope_2 img {
+	width: 314px;
+	height: 362px;
+}
+#contact-section .kaleidoscope_3 img {
+	width: 102px;
+	height: 117px;
+}
+*/
+/* End Contact */
+/* Page End */
+#contact-section .page_end img {
+	width: 599px;
+	height: 692px;
+}
+/* End Page End */
+/*
+#welcome-section {
+	background: rgba(0, 0, 0, 0.5);
+	background: url(../images/secciones/Welcome.jpg) top left no-repeat;
+}
+#about_us-section {
+	background: rgba(0, 0, 0, 0.5);
+	background: url(../images/secciones/About_Us.jpg) top left no-repeat;
+}
+#collection-section {
+	background: rgba(0, 0, 0, 0.5);
+	background: url(../images/secciones/Collection.jpg) top left no-repeat;
+}
+#silver-section {
+	background: rgba(0, 0, 0, 0.5);
+	background: url(../images/secciones/Silver.jpg) top left no-repeat;
+}
+#od-section {
+	background: rgba(0, 0, 0, 0.5);
+	background: url(../images/secciones/Other_Designers.jpg) top left no-repeat;
+}
+
+#store-section {
+	background: rgba(0, 0, 0, 0.5);
+	background: url(../images/secciones/The_Store.jpg) top left no-repeat;
+}
+#news-section{
+	background: rgba(0, 0, 0, 0.5);
+	background: url(../images/secciones/News.jpg) top left no-repeat;
+}
+#faq-section {
+	background: rgba(0, 0, 0, 0.5);
+	background: url(../images/secciones/FAQ.jpg) top left no-repeat;
+}
+
+#contact-section {
+	background: rgba(0, 0, 0, 0.5);
+	background: url(../images/secciones/Contact.jpg) top left no-repeat;
+}
+*/
+
+#end-section{
+
+}

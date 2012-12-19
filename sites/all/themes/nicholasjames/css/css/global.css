@@ -1,0 +1,204 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+/*
+CSS for the demo: Recreating the Nikebetterworld.com Parallax Demo
+Demo: Recreating the Nikebetterworld.com Parallax Demo
+Author: Ian Lunn
+Author URL: http://www.ianlunn.co.uk/
+Demo URL: http://www.ianlunn.co.uk/demos/recreate-nikebetterworld-parallax/
+Tutorial URL: http://www.ianlunn.co.uk/blog/code-tutorials/recreate-nikebetterworld-parallax/
+
+License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike). Please attribute work to Ian Lunn simply by leaving these comments in the source code or if you'd prefer, place a link on your website to http://www.ianlunn.co.uk/.
+
+Dual licensed under the MIT and GPL licenses:
+http://www.opensource.org/licenses/mit-license.php
+http://www.gnu.org/licenses/gpl.html
+*/
+
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	color:#808285;
+	background: url(../images/body_bg.png) top left repeat-x #f1f1f2 ;
+	font-family: 'Arial';
+}
+#container a, #container a:link, #container a:visited{
+	color:#808285;
+}
+img{
+	border: 0;
+}
+
+p{
+	color:#808285;
+	margin-bottom: 1em;
+}
+#header h1, #pixels{
+	color: #48941A;
+}
+#nav ul{
+	list-style: none;
+}
+
+#nav li{
+	background: url(../images/menu_inactivo_06.png) -8px 0 no-repeat;
+}
+#nav li.current, #nav li:hover{
+	background: url(../images/menu_activo.png) -8px 0 no-repeat;
+}
+#nav li.current a, #nav li:hover a{
+	color: #939598 !important;
+}
+#nav li a{
+	color: #BCBEC0 !important;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 11px;
+	background: url(../images/menu-arrow.png) no-repeat left center;
+	/*font-family:'GillSansW01-DisplayBold 709822';
+font-family:'GillSansInfantW01-Bold';
+
+
+font-family:'Gill Sans Infant W01';*/
+	height:  15px;
+	line-height:  5px;
+	vertical-align: middle;
+	padding-left: 15px;
+	font-family: "Gill Sans W01 Bold";
+	
+
+
+}
+#scrol-nav{
+	text-align: center;
+	list-style: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+#scrol-nav span{
+	font-family: "Gill Sans W01 Bold";
+	font-size: 10px;
+	text-decoration: none;
+	padding-bottom: 2px;
+	/*background: url(../images/subrayado_solo.png) repeat-x bottom left;*/
+	background: url(../images/subrayado_18px.png) repeat-x bottom left;
+	display: inline-block;
+}
+a.colorbox-load,a.colorbox-load:visited, a.colorbox-load:link{
+	padding-bottom: 2px;
+	/*background: url(../images/subrayado_solo.png) repeat-x bottom left;*/
+	background: url(../images/subrayado_18px.png) repeat-x bottom left;
+	text-decoration: none;
+}
+a.colorbox-load.no-ul{
+	background: none;
+	padding: 0;
+}
+div.parallax-content{
+	color:#808285;
+	text-transform: uppercase;
+/* 	font-weight: bold; */
+	font-size: 10px;
+	line-height: 18px;	
+}
+div.parallax-content .body{
+	font-family: "Gill Sans W01 Bold";
+	background: url(../images/subrayado_18px.png);
+}
+#about_us-section div.parallax-content .body,
+#contact-section div.parallax-content .body {
+	font-family: "Gill Sans W01 Book";
+}
+div.parallax-content .view-full {
+	font-family: "Gill Sans W01 Bold";
+}
+.parallax-content h1, .lastest h1{
+	display: inline-block;
+	font-size: 14px;
+	font-family: inherit;
+	font-weight: normal;
+	margin-bottom: 12px;
+	
+	color:#9d9fa2;
+	color:#58595b;
+	text-transform: uppercase;
+	/*border-bottom: solid 2px #d9dbdc;*/
+	text-decoration: none;
+	padding:0 1px 2px 1px;
+/*	background: url(../images/subrayado_solo.png) repeat-x bottom left;*/
+	background: url(../images/subrayado_18px.png) repeat-x bottom left;
+}
+
+#about_us-section{
+	color: black;
+	margin: 0 auto;
+	padding: 0;
+
+}
+.faq-parallax{
+	text-align: center;
+	vertical-align: middle;
+	font-size: 15px;
+	font-weight: normal;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+
+#contact-section .parallax-content, #about_us-section .parallax-content{
+	text-align: center;
+	text-decoration: none;
+	text-transform: lowercase;
+}
+#contact-section .parallax-content .body, 
+#about_us-section .parallax-content .body{
+	font-size: 11px;
+	background: none;
+}
+#contact-section .parallax-content .body{
+	font-size: 12px;
+	text-transform: none;
+}
+
+#contact-section h1, #news-section h1{
+	margin-bottom: 25px;
+}
+#news-section  .lastest{
+	text-align: center;
+}
+#news-section  .lastest p.title, #news-section  .lastest a.colorbox-load{
+	font-family: "Gill Sans W01 Bold";
+	text-align: center;
+	color: #808284;
+	margin-bottom: 14px;
+	font-size: 12px;
+}
+#news-section .lastest .date {
+	font-size: 12px;
+	margin-bottom: 8px;
+}
+.faq-parallax{
+	font-size: 15px;
+	line-height: 18px;
+	text-decoration: none;
+}
+#faq-section a{
+	display: block;
+	text-decoration: none;
+	background-repeat: repeat;
+	background-position: 0 18px;
+	/*background: none;*/
+}
+
+/* COLLECTION */
+
+.page-category-list h1,
+.page-other-desgners-list h1,
+.page-store-gallery h1,
+.page-blog h1,
+.node-type-faq h1,
+.node-type-faq h2 {
+	font-family: "Gill Sans W01 Book";
+	font-weight: normal;
+}

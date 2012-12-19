@@ -1,0 +1,238 @@
+.node-type-rings{
+	width:785px;
+    min-width:785px;
+    background: transparent;
+    margin-top: 28px;
+    height: 100%;
+
+}
+.node-type-rings .container-12 .prefix-1{
+	padding: 0;
+	margin:0;
+}
+.node-type-rings .container-24.grid-24.clearfix, .node-type-rings .submitted{
+	display: none;
+}
+.node-type-rings .container-12,
+.node-type-rings .container-12 .grid-12,
+.node-type-rings .container-12 .grid-8,
+.node-type-rings .content{
+    width: 100%;
+    margin:0;
+}
+.node-type-rings header{
+	height: 0;
+}
+.node-type-rings .close{
+	position: absolute;
+	right: 0;
+	z-index: 10;
+}
+.node-type-rings .group_product_image{
+	float:right;
+	padding-top: 31px;
+	width: 434px;
+	height: 501px;
+	
+}
+.node-type-rings .group_product_description{
+	float:left;
+	padding: 90px 32.5px 0 32.5px;
+	width: 259px;
+	height:282px;
+	background: url(../images/grey_diamond.png) no-repeat;
+	text-align: center;
+}
+/*
+.node-type-rings .container-24.grid-8 .content{
+	margin: 0 auto;
+	width: 259px;
+	text-align: center;
+}
+*/
+.node-type-rings .commerce-product-title{
+	font-size: 15px;
+	background: url(../images/subrayado_2ndLayer_18px.png) bottom left repeat-x;
+	display: inline-block;
+	text-transform: uppercase;
+	margin-bottom: 13px;
+}
+.node-type-rings .field-name-body{
+	font-size: 11px;
+	background: url(../images/subrayado_2ndLayer_18px.png) bottom left;
+}
+.page-category-list-third-level{
+	background: transparent;
+}
+/*PRODUCTS SLIDER*/
+.page-category-list-third-level {
+	width: 960px;
+	background: transparent;
+}
+.page-category-list-third-level .container-12,
+.page-category-list-third-level .container-12 .grid-12,
+.page-category-list-third-level .container-12 .grid-8,
+.page-category-list-third-level .content{
+    width: 100%;
+    margin:0;
+}
+.page-category-list-third-level .view-filters{
+	display: none;
+}
+.page-category-list-third-level  .group_product_image{
+	float:left;
+	padding-top: 31px;
+	width: 434px;
+	height: 501px;	
+	margin-left: 10px;
+}
+.page-category-list-third-level .group_product_description{
+	float:left;
+	padding: 90px 32.5px 0 32.5px;
+	width: 259px;
+	height:282px;
+	background: url(../images/grey_diamond.png) no-repeat;
+	text-align: center;
+}
+.page-category-list-third-level li header, .page-category-list-third-level li footer{
+	display: none;
+}
+
+/*THE STORE*/
+.node-type-store-image{
+	width: 960px;
+	background: transparent;
+	text-align: center;
+	background: gray;
+
+}
+.node-type-store-image h1#page-title{
+	display: none;
+}
+
+
+
+
+/*SCROLL*/
+/*
+ * CSS Styles that are needed by jScrollPane for it to operate correctly.
+ *
+ * Include this stylesheet in your site or copy and paste the styles below into your stylesheet - jScrollPane
+ * may not operate correctly without them.
+ */
+
+.jspContainer
+{
+	overflow: hidden;
+	position: relative;
+	height: 100%;
+}
+
+.jspPane
+{
+	position: absolute;
+	padding: 0;
+}
+
+.jspVerticalBar
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 5px;
+	height: 20px;
+	background: transparent;
+}
+
+.jspHorizontalBar
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 16px;
+	background: transparent;
+}
+
+.jspVerticalBar *,
+.jspHorizontalBar *
+{
+	margin: 0;
+	padding: 0;
+}
+
+.jspCap
+{
+	display: none;
+}
+
+.jspHorizontalBar .jspCap
+{
+	float: left;
+}
+
+.jspTrack
+{
+	background: transparent;
+	position: relative;
+}
+
+.jspDrag
+{
+	background: #030000;
+	position: relative;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+}
+
+.jspHorizontalBar .jspTrack,
+.jspHorizontalBar .jspDrag
+{
+	float: left;
+	height: 100%;
+}
+
+.jspArrow
+{
+	background: #50506d;
+	text-indent: -20000px;
+	display: block;
+	cursor: pointer;
+}
+
+.jspArrow.jspDisabled
+{
+	cursor: default;
+	background: #80808d;
+}
+
+.jspVerticalBar .jspArrow
+{
+	height: 16px;
+}
+
+.jspHorizontalBar .jspArrow
+{
+	width: 16px;
+	float: left;
+	height: 100%;
+}
+
+.jspVerticalBar .jspArrow:focus
+{
+	outline: none;
+}
+
+.jspCorner
+{
+	background: #eeeef4;
+	float: left;
+	height: 100%;
+}
+
+/* Yuk! CSS Hack for IE6 3 pixel bug :( */
+* html .jspCorner
+{
+	margin: 0 -3px 0 0;
+}

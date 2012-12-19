@@ -1,0 +1,606 @@
+/*
+    ColorBox Core Style:
+    The following CSS is consistent between example themes and should not be altered.
+*/
+#colorbox, #cboxOverlay, #cboxWrapper{position:absolute; top:0; left:0; z-index:9999; overflow:hidden;}
+#cboxOverlay{position:fixed; width:100%; height:100%;}
+#cboxMiddleLeft, #cboxBottomLeft{clear:left;}
+#cboxContent{position:relative;}
+#cboxLoadedContent{overflow:auto;}
+#cboxTitle{margin:0;}
+#cboxLoadingOverlay, #cboxLoadingGraphic{position:absolute; top:0; left:0; width:100%; height:100%;}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{cursor:pointer;}
+.cboxPhoto{float:left; margin:auto; border:0; display:block; max-width: none;}
+.cboxIframe{width:100%; height:100%; display:block; border:0;}
+#colorbox, #cboxContent, #cboxLoadedContent{box-sizing:content-box;}
+
+/* 
+    User Style:
+    Change the following styles to modify the appearance of ColorBox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+#cboxOverlay{background:#030000;}
+#colorbox{}
+    #cboxContent{margin-top:20px;}
+        .cboxIframe{background:none;}
+        #cboxError{padding:50px; border:1px solid #ccc;}
+        #cboxLoadedContent{border:0px solid #000; background:transparent;}
+        #cboxTitle{position:absolute; top:-20px; left:0; color:#ccc;}
+        #cboxCurrent{position:absolute; top:-20000px; right:0px; color:#ccc;}
+        #cboxSlideshow{position:absolute; top:-20px; right:90px; color:#fff;}
+        #cboxPrevious{position:absolute; top:50%; left:5px; margin-top:-32px; background:url(../images/controls.png) no-repeat top left; width:28px; height:65px; text-indent:-9999px;}
+        #cboxPrevious:hover{background-position:bottom left;}
+        #cboxNext{position:absolute; top:50%; right:5px; margin-top:-32px; background:url(../images/controls.png) no-repeat top right; width:28px; height:65px; text-indent:-9999px;}
+        #cboxNext:hover{background-position:bottom right;}
+        #cboxLoadingOverlay{background:transparent;}
+        #cboxLoadingGraphic{background:url(../images/loading.gif) no-repeat center center;}
+        #cboxClose{position:absolute; top:5px; right:5px; display:block; background:url(../images/controls.png) no-repeat top center; width:38px; height:19px; text-indent:-9999px;}
+        #cboxClose:hover{background-position:bottom center;}
+
+/*COLOR BOX SECTION*/
+
+#cboxPrevious{display:none;position:absolute; top:55px; left:1px; margin-top:0; background:black; width:37px; height:46px; text-indent:0; color:white;}
+#cboxNext{display:none;position:absolute; top:55px; left:47px; margin-top:0; background:black; width:37px; height:46px; text-indent:0; color:white;}
+#cboxClose{position:absolute; top:55px; left:93px; display:none; background:black; width:37px; height:46px; text-indent:0; color:white;}
+ a.previous,
+ a.next,
+ a.close,
+ a.cart,
+ .pager li.pager-next a,
+ .pager li.pager-previous a{
+    display: block;
+    float:left;
+    width: 39px;
+    height: 45px;
+    background-repeat: none; 
+    background: url(../images/sl_icons.png);
+    text-indent:-9999px;
+    overflow: hidden;
+    margin: 5px;
+}
+ a.previous,
+.pager li.pager-previous a{
+    background-position:-96px 0;
+}
+ a.next,
+.pager li.pager-next a{
+    background-position:-142px 0;
+}
+ a.close{
+    background-position:-188px 0;
+}
+ .cart{
+     background-position:0 0;
+}
+ .sl-twitter,
+ .sl-facebook,
+ .sl-mail{
+    display: block;
+    width:26px;
+    height: 30px;
+    background-repeat: none; 
+    background: url(../images/sl_icons.png);
+    text-indent:-9999px;
+    overflow: hidden;
+    margin: 5px;
+}
+.sl-twitter{
+    background-position:-284px -7px;
+}
+.sl-facebook{
+    background-position:-316px -7px;
+}
+.sl-mail{
+    background-position:-347px -7px;
+}
+
+/*PAGER*/
+.top-pager{
+    display: block;
+}
+.item-list .pager {
+    margin: 0;
+    padding: 0;
+}
+.item-list .pager li, .item-list .pager ul li {
+    display: inline;
+    margin:0;
+    padding:0;
+}
+.item-list .pager {
+
+}
+.item-list .pager  li a {
+ 
+}
+.pager li.pager-ellipsis, .pager li.pager-current, .pager li a {
+
+}
+.pager li.pager-current {
+
+}
+.pager li.pager-first a, .pager li.pager-previous a, .pager li.pager-next a, .pager li.pager-last a {
+   
+}
+.pager li.pager-next {
+
+}
+.pager li.pager-last, .pager li.pager-next.last {
+
+}
+.pager li.pager-ellipsis, .pager li.pager-current, .pager li a {
+
+}
+.pager li {
+   
+}
+
+.pager li.pager-next {
+
+}
+.pager li a {
+
+}
+.pager li a:hover {
+
+}
+.pager {
+
+}
+.pager li.first, .pager li.first a, .pager li.first a:hover {
+    
+}
+.pager li.pager-last, .pager li.pager-last a, .pager li.pager-last a:hover {
+   
+}
+/*color box width 807px*/
+
+/*FAQ*/
+.node-type-faq, 
+.page-other-desgners-list,
+.page-store-gallery,
+.page-blog,
+.page-range,
+.page-category-list{
+    width:807px;
+    min-width:807px;
+    background: transparent;
+}
+.node-type-faq .container-12 ,
+.node-type-faq .container-12 .grid-12,
+.page-other-desgners-list .container-12,
+.page-other-desgners-list .container-12 .grid-12,
+.page-store-gallery .container-12,
+.page-store-gallery .container-12 .grid-12,
+.page-blog .container-12,
+.page-blog .container-12 .grid-12,
+.page-range .container-12,
+.page-range .container-12 .grid-12,
+.page-category-list .container-12,
+.page-category-list .container-12 .grid-12{
+    width: 100%;
+    margin:0;
+}
+.node-type-faq .false-pager{
+    width:100%;
+    margin-bottom: 17px;
+}
+.node-type-faq #region-content{
+    float:left;
+    margin: 0;
+    background: white;
+    width: 503px;
+    padding: 35px;
+}
+.node-type-faq #region-right-colum{
+    float:left;
+    width: 200px;
+    margin:0;
+    margin-left: 30px;
+}
+.view-faqs-list .views-row {
+    display: block;
+    padding-left: 35px;
+    margin-left: 0;
+    min-height: 25px;
+    background: url(../images/sl_li.png) no-repeat left center;
+    margin-bottom: 3px;
+}
+.view-faqs-list .views-row  a{
+    font-size: 11px;
+      color:white;
+    text-decoration: none;
+
+}
+.node-type-faq #block-block-1 h2{
+    font-size: 11px;
+    color:white;
+    margin-top: 90px;
+    margin-top: 30px;
+    margin-bottom: 37px;
+}
+.node-type-faq h1#page-title{
+    font-size: 11px;
+    margin-bottom: 25px;
+}
+.node-type-faq article{
+    font-size: 10px;
+    font-size: 11px;
+}
+.node-type-faq article .field-name-body{
+    float:left;
+    width: 335px;
+    margin-right: 18px;
+}
+.node-type-faq article .field-name-field-faq-picture{
+    float:right;
+    width: 150px;
+    margin:0;
+    text-align: right;;
+}
+
+/*Other designsers*/
+
+.view-othe-desgners-list{
+    float:right;
+    width: 245px;
+}
+.page-other-desgners-list {
+    padding-top: 61px;
+}
+
+.page-other-desgners-list .item-list li{
+    /*position: relative;*/
+    margin-bottom: 59px;
+     color: white;
+      font-size: 10px;
+}
+.page-other-desgners-list .item-list li .views-field-title{
+    font-size: 11px;
+    text-transform: uppercase;
+}
+.page-other-desgners-list .field-name-field-designer-image{
+    /**/
+     position: absolute;
+     top:0;
+     left: 0;
+}
+.page-other-desgners-list .item-list li.views-row-1 .field-name-field-designer-image {
+    top:-60px;
+    left:232px;
+    width:170px;
+    height: 96px;
+}
+.page-other-desgners-list .item-list li.views-row-2 .field-name-field-designer-image {
+    top:59px;
+    left:50px;
+    width:227px;
+    height: 261px;
+}
+.page-other-desgners-list .item-list li.views-row-3 .field-name-field-designer-image {
+    top:167px;
+    left:286px;
+    width:197px;
+    height: 228px;
+}
+.page-other-desgners-list .item-list li.views-row-4 .field-name-field-designer-image {
+    top:325px;
+    left:160px;
+    width:166px;
+    height: 192px;
+}
+.page-other-desgners-list .item-list li.views-row-5 .field-name-field-designer-image {
+    top:434px;
+    left:293px;
+    width:226px;
+    height: 260px;
+}
+.page-other-desgners-list .item-list li.views-row-6 .field-name-field-designer-image {
+    top:609px;
+    left:150px;
+    width:168px;
+    height: 194px;
+}
+.page-other-desgners-list .field-name-field-designer-image img{
+    position: relative;
+    width: 100%;
+}
+.od-number{
+    display: block;
+    position: absolute;
+    background-repeat: none; 
+    width: 39px;
+    height: 45px;
+    line-height: 45px;
+    vertical-align: middle;
+    background: url(../images/sl_icons.png);
+    background-position;
+    text-align:center;
+    overflow: hidden;
+    margin: 0;
+    background-position:-236px 0;
+    color:white;
+    font-size: 9px;
+    z-index: 1;
+    top:0;
+}
+.page-other-desgners-list .item-list li.views-row-1 .field-name-field-designer-image .od-number{    
+    left:156px;
+    top:30px;
+}
+.page-other-desgners-list .item-list li.views-row-2 .field-name-field-designer-image .od-number{    
+    left:-30px;
+    top:144px;
+}
+.page-other-desgners-list .item-list li.views-row-3 .field-name-field-designer-image .od-number{    
+    left:153px;
+    top:175px;
+}
+.page-other-desgners-list .item-list li.views-row-4 .field-name-field-designer-image .od-number{    
+    left:0;
+    top:131px;
+}
+.page-other-desgners-list .item-list li.views-row-5 .field-name-field-designer-image .od-number{    
+    left:179px;
+    top:191px;
+}
+.page-other-desgners-list .item-list li.views-row-6 .field-name-field-designer-image .od-number{    
+    left:159px;
+    top:126px;
+}
+.page-other-desgners-list  h1#page-title{
+    font-size: 12px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+     color: white;
+}
+ .page-other-desgners-list .block-without-title {
+    position: relative;
+    top: -16px;
+ }
+/*STORE*/
+.page-store-gallery h1#page-title {
+    color: white;
+    font-size: 12px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+.page-store-gallery .block-without-title {
+    position: relative;
+    top: -62px;
+}
+.page-store-gallery .top-pager{
+    margin-bottom: 40px;
+}
+.page-store-gallery .bottom-pager{
+    margin-top: 42px;
+}
+.page-store-gallery .pager{
+    float: right;
+}
+.page-store-gallery .bottom-pager .close{
+    display: none;
+}
+.page-store-gallery .view-content .item-list li{
+    display: block;
+    float: left;
+    width:140px;
+    height: 160px;
+    margin:0 18px 24px 0;
+}
+.page-store-gallery .view-content .item-list li img{
+    width: 100%;
+    height: 100%
+}
+/*NEWS*/
+.page-blog #region-content{
+    float:left;
+    width:576px;
+}
+.page-blog #region-content .view-content{
+    background: white;
+    padding: 36px;
+    margin-top: 17px;
+    position: relative;
+}
+.page-blog #region-content .view-content h2.node-title{
+    width:320px;
+    font-size: 11px;
+    line-height: 22px;
+    margin-bottom: 42px;
+}
+.page-blog #region-content .view-content h2.node-title a{
+    color:#58595B;
+}
+.page-blog #region-content .submitted{   
+    position: absolute;
+    right: 30px;
+    top:-75px;
+    width:168px;
+    height: 127px;
+    padding: 90px 10px 0 10px;
+    text-align: center;
+    background: url(../images/sl_rombo.png);
+}
+.page-blog #region-right-colum{
+    float:left;
+    width: 150px;
+    padding-top: 120px;
+}
+
+.page-blog #region-right-colum a{
+    color:white;
+}
+.page-blog h1#page-title {
+    color: white;
+    font-size: 12px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    margin-bottom: 36px;
+}
+.page-blog .bottom-pager{
+    display: none;
+}
+.view-display-id-blog_archives .pager{
+    display: none;
+}
+
+/*RANGE*/
+.page-range .views-submit-button{
+    display: none;
+}
+.page-range .views-exposed-form label{
+    display:none;
+}
+.page-range h1#page-title {
+    color: white;
+    font-size: 12px;
+    margin-bottom: 19px;
+    text-transform: uppercase;
+}
+
+.page-range .pager {
+    float: right;
+}
+.page-range .top-pager {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.page-range .views-exposed-form{
+    margin-bottom: 27px;
+}
+.page-range .views-exposed-form  a {
+    color: white;
+    font-size: 11px;
+    text-decoration: none;
+}
+.page-range .views-exposed-form .form-item{
+    float:left;
+    margin-right: 12px;
+    text-transform: uppercase;
+}
+.page-range #messages{
+    display: none;
+}
+.page-range .view-content .item-list li{
+    position: relative;
+    float:left;
+    width: 187px;
+    height: 217px;
+    margin-left: 9px;
+    margin-bottom: 14px;
+}
+.page-range .view-content .item-list li .field .entity h2, .page-range .field-name-commerce-price{
+    display: none;
+}
+.page-range .view-content .item-list li .field{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 1;
+}
+.page-range .view-content .item-list li img{
+    width: 100%;
+    height: 100%;
+    
+}
+.page-range .view-content .item-list li .field-name-body{
+    z-index: 2;
+    display: none;
+    padding: 62px 17px 0 17px;
+    width: 153px;
+    height: 155px;
+    background: url(../images/sl_rombo.png);
+    font-size: 9px;
+}
+.page-range .view-content .item-list li:hover .field-name-body{
+    display: block;
+}
+.page-range .bottom-pager .close{
+    display: none;
+}
+
+/*CATEGORY*/
+.page-category-list .views-submit-button{
+    display: none;
+}
+.page-category-list .views-exposed-form label{
+    display:none;
+}
+.page-category-list h1#page-title {
+    color: white;
+    font-size: 12px;
+    margin-bottom: 19px;
+    text-transform: uppercase;
+}
+
+.page-category-list .pager {
+    float: right;
+}
+.page-category-list .top-pager {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.page-category-list .views-exposed-form{
+    margin-bottom: 27px;
+}
+.page-category-list .views-exposed-form  a {
+    color: white;
+    font-size: 11px;
+    text-decoration: none;
+}
+.page-category-list .views-exposed-form .form-item{
+    float:left;
+    margin-right: 12px;
+    text-transform: uppercase;
+}
+.page-category-list #messages{
+    display: none;
+}
+.page-category-list .view-content .item-list li{
+    position: relative;
+    float:left;
+    width: 187px;
+    height: 217px;
+    margin-left: 9px;
+    margin-bottom: 14px;
+}
+.page-category-list .view-content .item-list li .field .entity h2, 
+.page-category-list .field-name-commerce-price{
+    display: none;
+}
+.page-category-list .view-content .item-list li .field{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 1;
+}
+.page-category-list .view-content .item-list li img{
+    width: 100%;
+    height: 100%;
+    
+}
+.page-category-list .view-content .item-list li .field-name-body{
+    z-index: 2;
+    display: none;
+    padding: 62px 17px 0 17px;
+    width: 153px;
+    height: 155px;
+    background: url(../images/sl_rombo.png);
+    font-size: 9px;
+}
+.page-category-list .view-content .item-list li:hover .field-name-body{
+    display: block;
+}
+.page-category-list .bottom-pager .close{
+    display: none;
+}
+/*363 y 150 */
