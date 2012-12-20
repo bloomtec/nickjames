@@ -1,3 +1,4 @@
+<?php /*
 <?php 
     $query = new EntityFieldQuery; 
      $query = $query -> entityCondition('entity_type','node') 
@@ -70,3 +71,4 @@
     <?php endforeach;  ?>
     <?php endif; ?>
 </div>
+*/ ?>

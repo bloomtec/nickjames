@@ -6,10 +6,12 @@
   <title><?php print $head_title; ?></title>
   <?php print $styles; ?>
   <?php print $scripts; ?>
+  
   <link type="text/css" rel="stylesheet" href="http://fast.fonts.com/cssapi/fdf6cfab-5b5f-404b-8136-01988a377629.css"/ <http://fast.fonts.com/cssapi/fdf6cfab-5b5f-404b-8136-01988a377629.css%22/>
 
 </head>
 <body<?php print $attributes;?>>
+
 <div id="fb-root"></div>
  <script src="http://connect.facebook.net/en_US/all.js"></script>
   <div id="skip-link">

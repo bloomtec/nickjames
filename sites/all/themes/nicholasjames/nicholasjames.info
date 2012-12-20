@@ -84,17 +84,7 @@ stylesheets[all][] = css/parallax_blocks_sizes.css
 stylesheets[all][] = css/second_level.css
 stylesheets[all][] = css/third_level.css
 
-scripts[] = js/jquery.activity-indicator-1.0.0.min.js
-scripts[] = js/scroll.events.js
-scripts[] = js/jquery.localscroll-1.2.7-min.js
-scripts[] = js/jquery.scrollTo-1.4.2-min.js
-scripts[] = js/jquery.inview.js
-scripts[] = js/parallax.js
-scripts[] = js/nj.js
-scripts[] = js/my_colorbox.js
-scripts[] = js/jquery.jscrollpane.min.js
-scripts[] = js/jquery.mousewheel.js
-scripts[] = js/jquery.imagesequence.js
+
 
 ; OPTIONAL LIBRARIES
 
