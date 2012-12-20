@@ -1,3 +1,4 @@
+<?php /*
 <div id="<?php print $group ?>-section" class='parallax-section'>
     <div class="parallax-content">
         <h1><?php echo $fields['title']['und'][0]['value']; ?> </h1>
@@ -44,3 +45,4 @@
     <?php endforeach;  ?>
     <?php endif; ?>
 </div>
+*/ ?>

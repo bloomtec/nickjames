@@ -1,7 +1,6 @@
 <?php 
-if(isset($node) && $node -> nid == "40"):
+if(isset($node) && $node -> nid == "12"):
 global $base_path;
-
  $fieldsGroup = nicholas_james_get_fields($node); 
 
 ?>

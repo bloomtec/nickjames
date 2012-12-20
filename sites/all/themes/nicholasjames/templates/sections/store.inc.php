@@ -13,6 +13,7 @@
      // echo "<pre>".print_r(file_create_url($frontImages[0]->field_store_image['und'][0]['uri']),false)."</pre>";
    
 ?>
+<?php /*
 <div id="<?php print $group ?>-section" class='parallax-section'>
     <div class="parallax-content">
         <h1><?php echo $fields['title']['und'][0]['value']; ?> </h1>
@@ -71,3 +72,4 @@
     <?php endforeach;  ?>
     <?php endif; ?>
 </div>
+*/ ?>

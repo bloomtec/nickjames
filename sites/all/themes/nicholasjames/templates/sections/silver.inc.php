@@ -3,8 +3,8 @@
         <h1><?php echo $fields['title']['und'][0]['value']; ?> </h1>
         <?php if(isset($fields['body']) &&  !empty($fields['body'])): ?>
             <div class="body">
-                <?php echo $fields['body']['und'][0]['safe_value']; ?>
-           </div>
+                <?php echo $fields['body']['und'][0]['safe_value']; ?> 
+           </div> 
             <div class="view-full">
                 <a  class="colorbox-load kalei-load" href="/range?width=807&height=784&iframe=true"></a>
                 <a  class="colorbox-load" href="/range?width=807&height=784&iframe=true">
