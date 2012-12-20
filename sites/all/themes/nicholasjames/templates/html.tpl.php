@@ -11,7 +11,7 @@
 </head>
 <body<?php print $attributes;?>>
 <div id="fb-root"></div>
- <script src="//connect.facebook.net/en_US/all.js"></script>
+ <script src="http://connect.facebook.net/en_US/all.js"></script>
   <div id="skip-link">
     <a href="#main-content" class="element-invisible element-focusable"><?php print t('Skip to main content'); ?></a>
   </div>
